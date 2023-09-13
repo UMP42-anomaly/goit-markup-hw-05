@@ -559,6 +559,7 @@ button:hover {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-bottom: 16px;
 }
 
 .footer-form-input {
@@ -637,7 +638,7 @@ button:hover {
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
   width: 408px;
-  height: 584px;
+  min-height: 584px;
   border-radius: 4px;
   background-color: var(--dairy);
   z-index: 2;
@@ -803,6 +804,7 @@ button:hover {
 
 .modal-form-checkbox-div {
   position: relative;
+  margin-bottom: 24px;
 }
 
 .custom-checkbox-icon {
@@ -822,7 +824,7 @@ button:hover {
   margin-bottom: 24px;
 }
 
-.modal-form-label-span {
+.modal-form-checkbox-label-span {
   width: 16px;
   height: 16px;
   border: 1px solid var(--navy-blue-modal);
@@ -839,11 +841,6 @@ button:hover {
   .modal-form-checkbox-label-span {
   background-color: var(--ocean);
   border: none;
-}
-
-.modal-form-checkbox:checked
-  + .modal-form-checkbox-label
-  .custom-checkbox-icon {
   fill: var(--cloud);
 }
 
