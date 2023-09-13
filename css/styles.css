@@ -807,10 +807,6 @@ button:hover {
   margin-bottom: 24px;
 }
 
-.custom-checkbox-icon {
-  opacity: 0;
-}
-
 .modal-form-checkbox-label {
   color: var(--light-slate);
   font-family: Roboto;
@@ -845,12 +841,6 @@ button:hover {
   background-color: var(--ocean);
   border: none;
   fill: var(--cloud);
-}
-
-.modal-form-checkbox:checked
-  + .modal-form-checkbox-label
-  .custom-checkbox-icon {
-  fill: #fff;
 }
 
 .modal-form-privacy-link {
