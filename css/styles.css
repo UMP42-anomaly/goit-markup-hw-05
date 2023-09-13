@@ -834,6 +834,8 @@ button:hover {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
 }
 
 .modal-form-checkbox:checked
@@ -842,6 +844,12 @@ button:hover {
   background-color: var(--ocean);
   border: none;
   fill: var(--cloud);
+}
+
+.modal-form-checkbox:checked
+  + .modal-form-checkbox-label
+  .custom-checkbox-icon {
+  fill: #fff;
 }
 
 .modal-form-privacy-link {
